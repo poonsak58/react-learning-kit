@@ -13,8 +13,8 @@ const dashbaordLink = (linkString) => (
 const Dashboard = () => {
     return (
         <div>
-            <h1>Welcome to the Agoda React Learning Kit</h1>
-            <p>Here you can find a variety of examples and demonstrations to highlight many features of React and the React ecosystem.</p>
+            <h1>Welcome to the React Learning Kit</h1>
+            <p>Here you can find examples and demonstrations to highlight many features of React and the React ecosystem.</p>
 
             <p>These include the following:</p>
             <ul>
@@ -22,9 +22,11 @@ const Dashboard = () => {
                 <li>Managing properties and data in your components - {dashbaordLink('/component/structure')}</li>
                 <li>Higher Order Components (HOC's) - {dashbaordLink('/component/hoc')}</li>
                 <li>Loading Data into your component from external resources - {dashbaordLink('/component/data-management')}</li>
+                {/* 
                 <li>Routing for a Single Page Application - {dashbaordLink('/application/routing')}</li>
                 <li>Application State Management (Redux) - {dashbaordLink('/application/redux')}</li>
                 <li>Isomorphic Applications (Server Side Rendering) - {dashbaordLink('/application/isomorphic')}</li>
+                */}
                 
             </ul>
         </div>

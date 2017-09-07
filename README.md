@@ -1,3 +1,3 @@
-# Agoda React Learning Kit
+# React Learning Kit
 
 - Built upon reactGo (https://github.com/reactGo/reactGo)

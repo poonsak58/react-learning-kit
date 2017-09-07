@@ -40,6 +40,7 @@ class DataManagement extends Component {
         return (
             <div>
                 <h1>Data Management</h1>
+                <input type='text' className='form-control' placeholder='Search / Filter' />
                 <List items={items} />
                 {paginationLinks}
             </div>
